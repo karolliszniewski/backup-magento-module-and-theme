@@ -1,0 +1,158 @@
+.anime-hero-container {
+    position: relative !important;
+    ;
+    width: 100%;
+    height: 50rem;
+    overflow: hidden;
+}
+
+
+.hero-left,
+.hero-right {
+    position: absolute !important;
+}
+
+.hero-left {
+    bottom: 5rem;
+    left: 5%;
+    height: 40rem;
+    width: 50rem;
+    background: rgba(40, 35, 65, 0.4);
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+}
+
+.hero-left-first {
+    position: relative !important;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-left-second {
+    margin-top: 7rem;
+    margin-left: 3rem;
+    color: #fff;
+    font-family: 'Roxborough', sans-serif;
+    font-size: 5rem;
+    line-height: 1;
+}
+
+.hero-left-third {
+    margin-top: .5rem;
+    margin-left: 3rem;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-left-fourth {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+
+.hero-left-fourth-panel {
+    background-color: rgb(78, 78, 109);
+    display: inline-block;
+    padding: 1rem 3rem;
+
+}
+
+.hero-left-fifth {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+}
+
+
+
+@media (max-width: 1000px) {
+    .anime-hero-video {
+        transform: scale(2);
+        position: absolute;
+        top: 50%;
+        left: 30%;
+    }
+
+}
+
+
+.anime-hero-video {
+    position: absolute;
+    transform: scale(2);
+    left: 20%;
+}
+
+@media (max-width: 900px) {
+
+    .anime-hero-video {
+        transform: scale(3);
+    }
+}
+
+@media (max-width: 769px) {
+    .anime-hero-video {
+        transform: scale(3);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+
+    .page-header {
+        border: none !important;
+        margin-bottom: 0;
+    }
+
+    .hero-left-second {
+        font-size: 3rem;
+    }
+
+    .hero-left {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 75%;
+        width: 75%;
+        background: rgba(40, 35, 65, 0.4);
+        backdrop-filter: blur(10px) !important;
+        -webkit-backdrop-filter: blur(10px) !important;
+    }
+
+    .hero-left-fourth {
+        position: absolute;
+        bottom: 6rem;
+
+    }
+
+}
+
+@media (max-width: 500px) {
+    .anime-hero-video {
+        transform: scale(4);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+
+}
+
+
+@media (max-width: 400px) {
+    .anime-hero-video {
+        transform: scale(6);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+
+    .hero-left-second {
+        font-size: 2.5rem;
+    }
+
+
+}
